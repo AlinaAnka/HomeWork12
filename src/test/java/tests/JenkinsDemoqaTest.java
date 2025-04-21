@@ -10,7 +10,6 @@ import static io.qameta.allure.Allure.step;
 public class JenkinsDemoqaTest extends TestBase {
 
     @Test
-    @Tag("demoqa")
     void registrationDemoqaTest() {
 
         step("Open form", () -> {
